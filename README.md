@@ -9,7 +9,21 @@
 * The dataset contains 45211 rows and 17 columns
 
 # Data Preprocessing and EDA:
-* While checking for the missing values we see there are 0 missing values shown in the dataset because there are several missing values in some categorical attributes, all coded with the "unknown" label. 
+* While checking for the missing values we see there are 0 missing values shown in the dataset because there are several missing values in some categorical attributes, all coded with the "unknown" label.(Variables like job,education,contact_via,poutcome contains unknown values.) 
 * These missing values can be treated as a possible class label or using deletion or imputation techniques.
+* By looking at percentage values in target variable we infer that data is imbalanced.
+* Performed some feature engineering and used some user defined functions for some of the variables.
+* Used different types of plots to visualize the data in a better way(Barplot,scatterplot,pairplot).
+* Checked for multicollinearity using VIF as the data is imbalanced.
+* Performed some of the statistical tests to check the relation of variables with target variable and among each other also.(Chi-Square test of Independence,Anova)
+* Encoded categorical variables and scaled numerical variables for the further modelling.
+* To deal with the problem of imbalancing in the data we used SMOTE technique to balance the data.
+* After splitting the data using train_test_split.
+
+# Model:
+* We consider Logistic Regression as our base model.
+* Then we used ROC_AUC curve for checking the obtained result.
+* After 
 * 
+
 
