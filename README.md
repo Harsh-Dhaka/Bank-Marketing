@@ -23,7 +23,7 @@
 # Model:
 * We consider Logistic Regression as our base model.
 * Then we used ROC_AUC curve for checking the obtained result.
-* After 
-* 
+* After LG we used cross validation technique from which got a roc_auc score around 0.86.
+* Used KNN Classifier,Random Forest and boosting technique Adaboost,Gradient Boosting. 
 
 
